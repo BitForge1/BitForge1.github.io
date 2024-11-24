@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d6cc398.css",
-    "main.js": "/static/js/main.969b5e1c.js",
-    "static/media/frontimage.png": "/static/media/frontimage.cea850050a13c3405dcd.png",
-    "static/media/512x512LOGOv1.1.png": "/static/media/512x512LOGOv1.1.12854a7d65155d1cdbba.png",
-    "static/media/aboutimage.png": "/static/media/aboutimage.b5cdf7ea821a0a6e5d5a.png",
-    "static/media/bitforgelogo.png": "/static/media/bitforgelogo.7b1c13b7f8bdf82c5d7e.png",
-    "static/media/stike74.png": "/static/media/stike74.26c5409ea9a5266582b9.png",
-    "static/media/4Hoursleft.png": "/static/media/4Hoursleft.be00bb6982053d13e85d.png",
-    "index.html": "/index.html",
-    "main.5d6cc398.css.map": "/static/css/main.5d6cc398.css.map",
-    "main.969b5e1c.js.map": "/static/js/main.969b5e1c.js.map"
+    "main.css": "./static/css/main.5d6cc398.css",
+    "main.js": "./static/js/main.222245b0.js",
+    "static/media/frontimage.png": "./static/media/frontimage.cea850050a13c3405dcd.png",
+    "static/media/512x512LOGOv1.1.png": "./static/media/512x512LOGOv1.1.12854a7d65155d1cdbba.png",
+    "static/media/aboutimage.png": "./static/media/aboutimage.b5cdf7ea821a0a6e5d5a.png",
+    "static/media/bitforgelogo.png": "./static/media/bitforgelogo.7b1c13b7f8bdf82c5d7e.png",
+    "static/media/stike74.png": "./static/media/stike74.26c5409ea9a5266582b9.png",
+    "static/media/4Hoursleft.png": "./static/media/4Hoursleft.be00bb6982053d13e85d.png",
+    "index.html": "./index.html",
+    "main.5d6cc398.css.map": "./static/css/main.5d6cc398.css.map",
+    "main.222245b0.js.map": "./static/js/main.222245b0.js.map"
   },
   "entrypoints": [
     "static/css/main.5d6cc398.css",
-    "static/js/main.969b5e1c.js"
+    "static/js/main.222245b0.js"
   ]
 }
