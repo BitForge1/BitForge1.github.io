@@ -1,0 +1,237 @@
+body, html, img, a {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+#front {
+    margin: 0;
+    height: max-content;
+    top: 0;
+    padding: 0;
+}
+
+#front > #front-image {
+    width: 100%;
+    height: max-content;
+    z-index: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+#front-headtext {
+    display: block;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    opacity: 50%;
+    width:100%;
+    /* margin-left: 150px; */
+    text-wrap: nowrap;
+}
+
+#content {
+    display: block;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: 650px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#content-header {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    rotate: -7deg;
+    background-color: rgb(255, 166, 0);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rightside {
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#rightside > a {
+    height: 70px;
+    width: 200px;
+    
+}
+
+#rightside > a > button {
+    transition: font-size .5s;
+}
+
+#rightside > a:hover > button{
+    font-size: 30px;
+}
+
+#gamecontainer {
+    margin-top: 50px;
+    background-color: rgb(55, 55, 55);
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+}
+
+@media (min-width: 1000px) {
+    #gamecontainer {
+        width: 55%;
+    }
+    
+    #rightside {
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    
+    
+}
+
+@media (min-width: 100px) {
+    #gamecontainer > #imageholder > img {
+        width: 10px;
+    }
+
+    #playbutton {
+        width: 20%;
+    }
+}
+
+
+#gamecontainer > #imageholder > img {
+    width: 140px;
+    transition: outline .2s;
+}
+
+#gamecontainer > #imageholder > img:hover {
+    outline: 5px solid green;
+}
+
+#gamecontainer > #imageholder > img:not(:hover) {
+    outline: 2px solid green;
+}
+
+p {
+    color: white;
+}
+
+#title {
+    text-wrap: nowrap;
+}
+
+#playbutton {
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(42, 146, 51);
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+/* ABOUT */
+#main {
+    display: flex;
+    width: max-content;
+}
+
+#holder {
+    border-radius: 5px;
+    background-color: rgb(68, 68, 68);
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+}
+
+#player-image {
+    border-radius: 5px;
+    width: 180px;
+    background-color: rgb(92, 92, 92);
+}
+
+@media (min-width: 800px) {
+    #player-image {
+        width: 250px;
+    }
+}
+
+@media (min-width: 300px) {
+    #player-image {
+        width: 120px;
+    }
+}
+
+#flag {
+    width: 50px;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    margin: 0;
+    padding: 20px;
+
+    display: flex;
+    height: 250px;
+    width: inherit;
+    position: static;
+    background-color: rgb(72, 72, 72);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer > h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-heading {
+    color: rgb(178, 178, 178);
+}
+
+#footer-p {
+    color: rgb(170, 170, 170);
+}
+
+#footer-div {
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#footer-logo {
+    width: 80px;
+}
