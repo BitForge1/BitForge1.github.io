@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 //import Games from "./pages/Games";
@@ -12,7 +12,7 @@ import './index.css';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -24,7 +24,7 @@ export default function App() {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
